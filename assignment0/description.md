@@ -9,7 +9,7 @@ repository and submit a Pull Request (PR) for Assignment 0.
 * Create a GitHub account if you do not have one, preferably using your uw
 email.
 * Create a **private** repository on GitHub with name `HMS520-Autumn2022`.
-* Give Adrien `jiaweih` and me `zhengp0` access to the repository with read
+* Give Jiawei `jiaweih` and me `zhengp0` access to the repository with read
   and write permission.
 * Either link your local repository or start fresh, commit a `README.md` file to
   the repository.
@@ -30,4 +30,4 @@ If there are useful tips and insights for programming in R, they shall go to the
 
 * Submit a PR from `assignment0` branch to `main` branch, with title
 `Assignment0` and `Describe structure of the repository.` as the description.
-* Add Adrien `jiaweih` and me `zhengp0` as the reviewers.
+* Add Jiawei `jiaweih` and me `zhengp0` as the reviewers.
