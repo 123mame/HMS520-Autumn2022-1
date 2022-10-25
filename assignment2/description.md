@@ -31,7 +31,7 @@ Create a function called `rmse` that will return the root mean square error of
 a given numeric vector.
 
 For example if our input is `c(1, 2, 3)` and our
-expected output is `sqrt((1^2 + 2^2 + 3^3)/3)`. Here is the signature of the
+expected output is `sqrt((1^2 + 2^2 + 3^2)/3)`. Here is the signature of the
 `rmse` function.
 * Arguments
   * `x`: A numeric vector.
