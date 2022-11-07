@@ -23,6 +23,21 @@ deaths <- rbinom(nrow(dat), population, prob)
 df_population <- cbind(dat, population)
 df_deaths <- cbind(dat, deaths)
 
+# create work hours table
+df_hours <- data.frame(
+    project = 1:5,
+    A = rpois(5, 5),
+    B = rpois(5, 5),
+    C = rpois(5, 6),
+    D = rpois(5, 10)
+)
+df_pay = data.frame(
+    project = 1:5,
+    dollar_per_hour = rpois(5, 40)
+)
+
 # save the data frames
 write.csv(df_population, "population.csv", row.names = FALSE)
 write.csv(df_deaths, "deaths.csv", row.names = FALSE)
+write.csv(df_hours, "hours.csv", row.names = FALSE)
+write.csv(df_pay, "pay.csv", row.names = FALSE)
