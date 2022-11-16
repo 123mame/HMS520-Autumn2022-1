@@ -64,5 +64,6 @@ It is recommended to use either `read_csv` or `fread`.
 ## Data analysis and results (2 pts)
 * List the top five states with the most deaths, cases.
 * List the top five states with the highest infection fatality rate and mortality rate.
+
 (Hint: you can choose to aggregate the values within states and across date using `max`, `sum` or `mean`.
 Use any of those you will get the full points.)
