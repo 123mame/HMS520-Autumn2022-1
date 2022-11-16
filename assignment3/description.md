@@ -29,9 +29,10 @@ It is recommended to use either `read_csv` or `fread`.
 
 
 ## Data cleaning (4 pts)
-* Clean column names, change all column names to lower case, and change the date
-  column to the format `"year-month-day"`, e.g. `"2021-01-01"` if the date is not
-  already in the this format.
+* Clean column names
+  * change all column names to lower case
+  * and change the date column to the format `"year-month-day"`,
+  e.g. `"2021-01-01"` if the date is not already in the this format.
 * Collect the date column names of both `deaths` and `cases` data frames, and
   save them into the variables `death_dates` and `case_dates`.
 * Aggregate the deaths, cases and population from each county to their state
@@ -63,3 +64,5 @@ It is recommended to use either `read_csv` or `fread`.
 ## Data analysis and results (2 pts)
 * List the top five states with the most deaths, cases.
 * List the top five states with the highest infection fatality rate and mortality rate.
+(Hint: you can choose to aggregate the values within states and across date using `max`, `sum` or `mean`.
+Use any of those you will get the full points.)
