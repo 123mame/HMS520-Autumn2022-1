@@ -46,3 +46,38 @@ vec2 <- as.vector(vec)
 for (i in 1:10) {
     vec[i] <- i^2
 }
+
+
+# directly use boolean variable -------------------------------------------
+
+a <- NA
+if (is.na(a)) {
+    print("a is NA")
+}
+
+
+# na_rm argument ----------------------------------------------------------
+
+?mean
+
+
+# throw exception in R ----------------------------------------------------
+
+?stop
+
+a <- NA
+if (is.na(a)) {
+    stop("a is NA")
+}
+
+# as.Date function --------------------------------------------------------
+# https://www.stat.berkeley.edu/~s133/dates.html
+as.character(as.Date("11/17/22", format = "%m/%d/%y"))
+
+
+# diff and cumsum ---------------------------------------------------------
+a <- c(-2, 5, 7, 10)
+diff(a)
+cumsum(a)
+?pmax
+pmax(a, 0)
