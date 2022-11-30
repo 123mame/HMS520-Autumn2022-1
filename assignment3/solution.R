@@ -29,8 +29,8 @@ names(population) <- tolower(names(population))
 
 # Collect the date column names of both `deaths` and `cases` data frames, and
 # save them into the variables `death_dates` and `case_dates`.
-death_dates <- names(deaths)[startsWith(names(deaths), "2021")]
-case_dates <- names(cases)[startsWith(names(cases), "2021")]
+death_dates <- names(deaths)[startsWith(names(deaths), "20")]
+case_dates <- names(cases)[startsWith(names(cases), "20")]
 
 # Aggregate the deaths, cases and population from each county to their state
 # using sum, and re-assign them to `deaths`, `cases` and `population`.
